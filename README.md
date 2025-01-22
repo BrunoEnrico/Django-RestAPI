@@ -15,20 +15,13 @@ This repository contains a simple REST API for a blog built using Django and dep
 - **Heroku**: Cloud platform for deployment.
 - **Python**: Core programming language.
 
-## Endpoints
-
-| Method | Endpoint             | Description                |
-|--------|-----------------------|----------------------------|
-| GET    | `/blogposts/`         | List all blog posts        |
-| POST   | `/blogposts/`         | Create a new blog post     |
-| DELETE | `/blogposts/<id>/`    | Delete a specific blog post|
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Simple-Blog-API.git
-   cd Simple-Blog-API
+   git clone https://github.com/BrunoEnrico/Django-RestAPI
+   cd Django-RestAPI
    ```
 
 2. Create and activate a virtual environment:
@@ -70,7 +63,7 @@ This application is deployed on Heroku. To deploy it yourself:
 
 Once the API is running, use tools like `Postman` or `curl` to interact with the endpoints. For example, to list all blog posts:
 ```bash
-curl -X GET https://your-heroku-app.herokuapp.com/blogposts/
+curl -X GET https://bfernandes-djangoapi-21613d605475.herokuapp.com
 ```
 
 ## Future Improvements
